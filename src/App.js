@@ -48,7 +48,7 @@ function App() {
     {
       path: '/',
       element: <>
-        <Navbar title="TextUtils" home="Home" aboutText="About Us" help="Help" mode_var={mode} togglemode_var={toggleMode} text_var={text} />
+        <Navbar title="PWT" home="Home" aboutText="About Us" help="Help" mode_var={mode} togglemode_var={toggleMode} text_var={text} />
         <Alert alert_var={alert} />
         <div className='container my-3'>
           <TextForm heading='Enter the text to analyze below!' mode_var={mode} showAlert_var={showAlert} />

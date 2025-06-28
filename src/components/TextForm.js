@@ -78,10 +78,10 @@ export default function TextForm(props) {
                     <label htmlFor="mybox" className="form-label"> Example Text-area </label>
                     <textarea className={`form-control bg-${(props.mode_var === 'light')? 'light':'dark'} text-${(props.mode_var === 'light')? 'dark':'light'}`} id="mybox" value={text} onChange={handleOnChange} rows="8" placeholder='e.g. You are a good boy.'></textarea>
                 </div>
-                <button disabled={text.length === 0} className="btn mx-1 my-1 btn-primary" onClick={handleUpClick}>Convert to Uppercase</button>
-                <button disabled={text.length === 0} className="btn mx-1 my-1 btn-primary" onClick={handleLowClick}>Convert to Lowercase</button>
+                <button disabled={text.length === 0} className="btn mx-1 my-1 btn-primary" onClick={handleUpClick}>CONVERT TO UPPERCASE</button>
+                <button disabled={text.length === 0} className="btn mx-1 my-1 btn-primary" onClick={handleLowClick}>convert to lowercase</button>
                 <button disabled={text.length === 0} className="btn mx-1 my-1 btn-primary" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
-                <button disabled={text.length === 0} className="btn mx-1 my-1 btn-primary" onClick={handleCopyText}>CopyText</button>
+                <button disabled={text.length === 0} className="btn mx-1 my-1 btn-primary" onClick={handleCopyText}>Copy to Clipboard</button>
                 <button disabled={text.length === 0} className="btn mx-1 my-1 btn-primary" onClick={handleSpeak}>Text to Speech</button>
                 <button disabled={text.length === 0} className="btn mx-1 my-1 btn-success" style={{width:"5.25rem"}} id="pop" onClick={handlePause}>Pause</button>
                 <button disabled={text.length === 0} className="btn mx-1 my-1 btn-success" onClick={handleStop}>Stop</button>
