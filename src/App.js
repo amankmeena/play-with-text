@@ -60,7 +60,7 @@ function App() {
     {
       path: '/About',
       element: <>
-        <Navbar title="TextUtils" home="Home" aboutText="About Us" help="Help" mode_var={mode} togglemode_var={toggleMode} text_var={text} />
+        <Navbar title="PWT" home="Home" aboutText="About Us" help="Help" mode_var={mode} togglemode_var={toggleMode} text_var={text} />
         <Alert alert_var={alert} />
         <About aboutUs="About Us" mode_var={mode} />
       </>
@@ -68,7 +68,7 @@ function App() {
     {
       path: '/Help',
       element: <>
-        <Navbar title="TextUtils" home="Home" aboutText="About Us" help="Help" mode_var={mode} togglemode_var={toggleMode} text_var={text} />
+        <Navbar title="PWT" home="Home" aboutText="About Us" help="Help" mode_var={mode} togglemode_var={toggleMode} text_var={text} />
         <Alert alert_var={alert} />
         <Help />
       </>
