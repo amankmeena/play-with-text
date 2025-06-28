@@ -6,7 +6,7 @@ A simple React app to analyze and manipulate text, built with [Create React App]
 
 ✅ This project is deployed using **Vercel** for seamless CI/CD from GitHub.
 
-🔗 **Live Demo**: [View Site](https://news-bee-green.vercel.app/)
+🔗 **Live Demo**: [View Site](https://play-with-text-virid.vercel.app/)
 
 📦 **Deployment Platform**: Vercel (connected to `main` branch)
 
