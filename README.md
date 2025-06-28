@@ -4,11 +4,11 @@ A simple React app to analyze and manipulate text, built with [Create React App]
 
 ## 🚀 Deployment
 
-✅ This project is deployed using **GitHub Pages**.
+✅ This project is deployed using **Vercel** for seamless CI/CD from GitHub.
 
-🔗 **Live Demo**: [View Site](https://amankmeena.github.io/play-with-text/)
+🔗 **Live Demo**: [View Site](https://news-bee-green.vercel.app/)
 
-📦 **Branch Deployed**: `gh-pages`
+📦 **Deployment Platform**: Vercel (connected to `main` branch)
 
 ## Features
 
