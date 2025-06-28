@@ -2,6 +2,14 @@
 
 A simple React app to analyze and manipulate text, built with [Create React App](https://github.com/facebook/create-react-app).
 
+## 🚀 Deployment
+
+✅ This project is deployed using **GitHub Pages**.
+
+🔗 **Live Demo**: [View Site](https://amankmeena.github.io/play-with-text/)
+
+📦 **Branch Deployed**: `gh-pages`
+
 ## Features
 
 - **Text Transformations:**  

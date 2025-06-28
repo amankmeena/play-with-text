@@ -6,7 +6,8 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
 import Help from './components/Help';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 function App() {
 
@@ -44,7 +45,8 @@ function App() {
     }
   };
 
-  const router = createBrowserRouter([
+  // const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: '/',
       element: <>
